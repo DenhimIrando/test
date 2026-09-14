@@ -27,4 +27,58 @@
 5. and
 6. Это булева переменная, которая сигнализирует, когда в программе возникает некое условие.
 
-Далее до срока не успею, извините.
+Алгоритмические тренажёр
+1. 
+if x>100
+    y=20
+    z=40
+2.
+if a>10
+    b=0
+    c=1
+3.
+if a>10
+    b=0
+else:
+    b=99
+4.
+if score >= A_score:
+    print('Ваш уровень - А.')
+else:
+    if score >= B_score:
+        print('Ваш уровень - В .')
+    else:
+        if score >= C_score:
+            print('Ваш уровень - С.')
+        else:
+            if score >= D_score:
+                print('Ваш уровень - D.')
+            else:
+                print('Ваш уровень - F.')
+5.
+if amount1>10 and amount2<100
+    if amount1>amount2
+        print(amount1)
+    else:
+        print(amount2)
+6.
+if speed>24 and speed<56
+    print('Скорость нормальная')
+else:
+    print('Скорость аварийная')
+7.
+if points<9 and points>51
+    print('Недопустимые точки')
+else:
+    print('Допустимые точки')
+8.
+if turtle.heading()>=0 and turtle.heading()<=45:
+    turtle.penup()
+9. 
+if t.pencolor()=="red" or t.pencolor()=="blue":
+    t.pensize(5)
+10.
+x = turtle.xcor()
+y = turtle.ycor()
+if 100<=x<=200 and 100<=y<=200:
+    turtle.hideturtle()
